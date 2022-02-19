@@ -13,3 +13,40 @@ network:
           password: ToBeDetermined
       dhcp4: true
       dhcp6: true
+  vlans:
+    vlan1:
+      accept-ra: true
+      id: 0
+      link: enp3s0
+    vlan10:
+      accept-ra: false
+      id: 10
+      link: enp3s0
+    vlan169:
+      accept-ra: false
+      id: 169
+      link: enp3s0
+    vlan172:
+      accept-ra: false
+      id: 172
+      link: enp3s0
+    vlan192:
+      accept-ra: false
+      id: 192
+      link: enp3s0
+    vlan2001:
+      accept-ra: true
+      id: 2001
+      link: enp3s0
+    vlanfc:
+      accept-ra: true
+      id: 252
+      link: enp3s0
+    vlanfe:
+      accept-ra: true
+      id: 254
+      link: enp3s0
+    vmlan:
+      accept-ra: false
+      id: 4
+      link: enp3s0

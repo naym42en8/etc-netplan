@@ -2,10 +2,15 @@
 network:
   renderer: networkd
   version: 2
+   bridges:
+    lxbr0:
+      interfaces:
+        - enp3s0
+      parameters:
+        forward-delay: 4
+        stp: true
   ethernets:
-    enp3s0:
-      dhcp4: true
-      dhcp6: true
+    enp3s0: {}
   wifis:
     wlp4s0:
       access-points:

@@ -6,3 +6,12 @@ network:
     enp3s0:
       dhcp4: true
       dhcp6: true
+  wifis:
+    wlp4s0:
+      access-points:
+        Fios-v7GP6:
+          password: ToBeDetermined
+        WIFI-MGM1B:
+          password: ToBeDetermined
+      dhcp4: true
+      dhcp6: true

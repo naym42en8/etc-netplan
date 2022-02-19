@@ -1,4 +1,4 @@
 ---
 network:
-  renderer: NetworkManager
+  renderer: networkd
   version: 2
